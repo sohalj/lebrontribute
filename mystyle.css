@@ -1,16 +1,13 @@
-
-
 body{
 	background-color: #860038;
-	
 }
-
 
 h1 {
 	color: #FDBB30;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 100px;
 }
+
 h2 {
 	color: #FDBB30;
 	font-family: "Times New Roman", Times, serif;
@@ -18,27 +15,16 @@ h2 {
 	
 }
 
-
-.btn-group{
-    position: absolute;
-    top: 50px;
-    bottom: 0px;
-    right: 0px;
-    left: 1050px;
-    width: 300px; 
-}
-
-button {
-    background-color: #860038; /* Green */
-    border: 2px solid #FDBB30;
-    color: #FDBB30;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-
 .yellow-text{
 	color:#FDBB30;
+}
+
+@media screen and (max-width: 450px) {
+    h1{
+        font-size: 75px;
+    }
+
+    h2{
+        font-size: 29px;
+    }
 }
