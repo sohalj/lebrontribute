@@ -3,19 +3,16 @@ body{
 }
 
 h1 {
-	color: #FDBB30;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 100px;
 }
 
 h2 {
-	color: #FDBB30;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 50px;
-	
 }
 
-.yellow-text{
+section, p, h1, h2{
 	color:#FDBB30;
 }
 
